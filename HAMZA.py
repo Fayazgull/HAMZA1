@@ -81,10 +81,10 @@ def notice():
  
 
 	runtxt("\n\033[0;97m  Free 2009 cloning Tool For Free Aproval Join Group ")
-	os.system("xdg-open https://www.facebook.com/groups/447671328737321/permalink/2365540383617063/?app=fbl")
+	os.system("xdg-open https://facebook.com/groups/3092272281101861//permalink/2365540383617063/?app=fbl")
 	runtxt("\033[0;97m Key Approval ke Lai Group Jion Krein >> %s%s"%(G,basesplit))
 	runtxt("\033[0;97m Key group admin ke post pe coment krein")
-	os.system("xdg-open https://www.facebook.com/groups/447671328737321/permalink/2365540383617063/?app=fbl")
+	os.system("xdg-open https://facebook.com/groups/3092272281101861//permalink/2365540383617063/?app=fbl")
 	subprocess.check_output(["am", "start", "https://www.facebook.com/groups/447671328737321/permalink/2365540383617063/?app=fbl"])
 	
 
@@ -107,7 +107,7 @@ class Main:
 		self.loop = 0
 		try:
 			#yahan pr v apna github link dalna aproval wala
-			plr = requests.get('https://github.com/QURBAN-xd/run.txt/blob/main/run.txt').text
+			plr = requests.get('/-xd/run.txt/blob/main/run.txt').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;97mPREMIUM")
